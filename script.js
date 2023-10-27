@@ -24,7 +24,7 @@ function addToCart(element) {
 
         document.querySelector('.total').innerText = `Total: $${allTotal}`;
 
-        element.innerText = 'Dodato'; // menjamo tekst dugmeta na 'dodato'
+        element.innerText = 'Added'; // menjamo tekst dugmeta na 'dodato'
         element.setAttribute('disabled', 'true'); // onemogucavamo dugme tako da ne moze da se pritiska nakon sto je dodato vec
 
     } else {
